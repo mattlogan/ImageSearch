@@ -1,9 +1,11 @@
 package me.mattlogan.imagesearch.api.model;
 
+import java.io.Serializable;
+
 /**
  * Created by matthewlogan on 9/3/14.
  */
-public class ImageData {
+public class ImageData implements Serializable {
 
     private String tbUrl;
     private String url;
